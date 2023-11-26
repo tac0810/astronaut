@@ -5,6 +5,8 @@
 
     "baseUrl": ".",
     "paths": {
+      "@layout": ["src/layouts/Default.astro"],
+      "@layouts/*": ["src/layouts/*"],
       "@controllers/*": ["src/controllers/*"],
       "@components/*": ["src/components/*"],
       "@assets/*": ["src/assets/*"]
