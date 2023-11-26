@@ -8,6 +8,7 @@ questions:
 ---
 
 # Variables
+
 - name: `{{ inputs.name | pascal }}`
 
 # `./src/controllers/{{ name }}.ts`
@@ -16,14 +17,13 @@ questions:
 import type { AlpineComponent } from "alpinejs";
 
 export default (): AlpineComponent<any> => {
-	return {
-		init(){
-			console.log("init {{name}}");
+  return {
+    init() {
+      console.log("init {{name}}");
     },
-		destroy(){
-			console.log("destroy {{name}}");
-		},
-	};
+    destroy() {
+      console.log("destroy {{name}}");
+    },
+  };
 };
-
 ```

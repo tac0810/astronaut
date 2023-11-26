@@ -4,6 +4,6 @@ export default (): AlpineComponent<any> => {
   return {
     init() {
       console.log("init card");
-    }
+    },
   };
 };
